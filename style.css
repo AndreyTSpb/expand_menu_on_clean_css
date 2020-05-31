@@ -1,0 +1,9 @@
+/**
+Раскрывающееся меню
+ */
+.hide, .hide + ul{
+    display: none;
+}
+input.hide:checked + ul{
+    display: list-item;
+}
